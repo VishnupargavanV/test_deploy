@@ -8,7 +8,7 @@ from langchain_groq import ChatGroq
 import streamlit as st
 import os
 from utils.data_manager import StudentDataManager
-from utils.llm_handler import LLMHandler
+from agents.llm_handler import LLMHandler
 from agents.swot_agent import SWOTAgent
 from agents.roadmap_agent import RoadmapAgent
 from agents.progress_agent import ProgressMonitorAgent
