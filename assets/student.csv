@@ -1,0 +1,3 @@
+student_id,student_name,age,class,subjects,weaknesses,strengths,opportunities,threats,exam_scores,practice_test_results,target_score,available_time
+1,John Doe,16,10,"Math, Science","Time management","Online resources","Low confidence","85, 90, 78","80, 85, 88",90,"10 hours/week"
+2,Jane Smith,17,11,"English, History","Focus","Mentorship","Procrastination","88, 92, 81","82, 87, 90",95,"12 hours/week"
