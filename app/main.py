@@ -6,7 +6,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from langchain_groq import ChatGroq
 import streamlit as st
-from dotenv import load_dotenv
 import os
 from utils.data_manager import StudentDataManager
 from utils.llm_handler import LLMHandler
@@ -19,7 +18,6 @@ from agents.exam_trend_agent import ExamTrendAgent
 from utils.db_handler import DBHandler
 import json
 from langchain.schema import HumanMessage
-load_dotenv()
 API_KEY = st.secrets["general"]["GEMINI_API_KEY"] 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "assets", "student.csv")
